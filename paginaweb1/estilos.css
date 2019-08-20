@@ -1,0 +1,53 @@
+body
+{
+	background: url(img/Nyjah-Huston-1021x580.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+form 
+{
+	width: 25%;
+	box-shadow: 0.2em 0.2em 0.4em #444444;
+}
+form fieldset 
+{
+	background: #08666C;
+	transition: all linear 0.6s;
+
+}
+form fieldset:hover
+{
+	background: #06E5F3;
+}
+form input[type="submit"]
+{
+	display:block;
+	margin-top: 2em;
+	width: 200px;
+	margin-bottom: 2em;
+}
+form input[type="email"]
+{
+	background: transparent;
+	border-left: none;
+	//border-bottom: none;
+	border-top: none;
+	border-right: none;
+	outline: none;
+	text-align: center;
+}
+form legend
+{
+	font-family: 'Holtwood One SC', serif;
+	text-align: center;
+	color: #F2F2F2;
+
+}
+.parrafo{
+	width: 60%;
+	margin: 0 auto;
+	column-count: 3;
+	color: #505050; 
+	background: rgba(255,255,255,0.5);
+	padding: 3em;
+}
